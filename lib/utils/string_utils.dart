@@ -1,0 +1,46 @@
+class StringUtils {
+  static const signin = 'Sign In';
+  static const signup = 'Sign Up';
+  static const email_hint = 'name@somemail.com';
+  static const email_lable = 'Your Email';
+  static const password_label = 'password';
+  static const confirm_password_label = 'confirm password';
+  static const confirm_password_hint = 'confirm new password';
+  static const password_hint = 'Enter at least 8 characters';
+  static const newpassword_success = 'new password has been created';
+  static const newpassword_failed = 'new password has been failed';
+  static const forgotpassword = 'Forgot Password?';
+  static const newpassword = 'New password';
+  static const continuewith = 'or continue with';
+  static const dailyprd = 'Daily Products';
+  static const  searchlable= 'Search for Vegetables';
+  static const backery = 'backery';
+  static const welcomemsg = 'Hey Ady\n\n What would you like to Buy today?';
+  static const donthaveaccount = 'Don\'t have an account ?';
+  static const alreadyhaveaccount = 'Do you already have an Account? ';
+  static const haveaccount = 'Already have an account ?';
+  static const error_text = 'credialtials are not proper';
+  static const login_success = 'Looks great!';
+  static const submit = 'Submit';
+  static const viewAll = 'View all';
+  static const enter_otp = 'Enter OTP';
+  static const otpNotReceived = 'Didn’t Receive OTP?';
+  static const resendOtp = 'Resend OTP';
+  static const category = 'Category';
+
+  static const offer = 'Enjoy the Special Offer\n up yo 60\% Off';
+  static const offer1 = ' 60\% Off';
+  static const timing = 'from 12 to 16 August,2022';
+  static const bestselling = 'Best Sellings';
+  static const home = 'Home';
+  static const search = 'Search';
+  static const searchVeg = 'Search your Groceries';
+  static const buy = 'Buy';
+  static const profile = 'Profilę';
+  static const otp_hint = 'Enter an OTP recieved by Email';
+  static const Terms_condtions = 'Agree to the Terms & Conditions';
+  static const fruit = 'Fruits';
+  static const Bread = 'Bread';
+  static const veg = 'Vegies';
+  static const Dairy = 'Dairy';
+}

@@ -1,0 +1,52 @@
+name: grocery
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  carousel_indicator: ^1.0.6
+  fluttertoast: ^8.2.1
+  otp_text_field: ^1.1.3
+  cupertino_icons: ^1.0.2
+  
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  # example:
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  fonts:
+    - family: UrbanistFont
+      fonts:
+        - asset: assets/fonts/UrbanistFont.ttf
+#         - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
