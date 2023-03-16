@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:grocery/utils/image_utils.dart';
-import 'package:grocery/utils/route.dart';
+
 import 'package:grocery/utils/string_utils.dart';
 
 class HomePageController extends GetxController {
@@ -115,5 +115,4 @@ class HomePageController extends GetxController {
     {'img': Image_utils.veg, 'category': StringUtils.veg},
     {'img': Image_utils.dairy, 'category': StringUtils.Dairy},
   ];
-
 }

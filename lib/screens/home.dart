@@ -194,7 +194,7 @@ class Dash extends StatelessWidget {
                           child: Container(
                             child: Padding(
                                 padding: const EdgeInsets.only(
-                                    top: 16.0, left: 24, right: 24),
+                                    top: 16.0, left: 20, right: 20),
                                 child: GroceryCard(_.groceryDetails)),
                           ),
                         )

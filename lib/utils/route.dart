@@ -3,12 +3,9 @@ import 'package:grocery/screens/groceryinfoscreen.dart';
 import 'package:grocery/screens/homescreen.dart';
 import 'package:grocery/screens/searchgrocery.dart';
 import 'package:grocery/screens/sign_in.dart';
-
 import '../screens/forgot_password/forgotpassword.dart';
 import '../screens/forgot_password/otp_verificationscreen.dart';
 import '../screens/forgot_password/resetpassword.dart';
-import '../screens/groceryinfoscreen.dart';
-
 import '../screens/sign_up.dart';
 import '../screens/spalsh_screen.dart';
 
@@ -22,7 +19,6 @@ abstract class RouteGenerator {
   static const String resetpasswordscreen = '/resetpasswordscreen';
   static const String search = '/search';
   static const String groceryInfo = '/GroceryInfo';
-
 
   static List<GetPage> pages = [
     GetPage(

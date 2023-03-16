@@ -1,5 +1,4 @@
 import 'package:get/state_manager.dart';
-import 'package:grocery/screens/forgot_password/forgotpassword.dart';
 import 'package:grocery/screens/forgot_password/otp_verificationscreen.dart';
 import 'package:grocery/screens/sign_up.dart';
 
