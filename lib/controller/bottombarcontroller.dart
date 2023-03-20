@@ -1,4 +1,5 @@
 import 'package:get/state_manager.dart';
+import 'package:grocery/screens/cartscreen.dart';
 import 'package:grocery/screens/forgot_password/otp_verificationscreen.dart';
 import 'package:grocery/screens/sign_up.dart';
 
@@ -10,7 +11,7 @@ class homecontroller extends GetxController {
   List screens = [
     const Dash(),
     const Search(),
-    const Signup(),
+    const CartScreen(),
     const OtpVerification()
   ];
   changeIndex(int value) {

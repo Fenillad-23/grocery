@@ -4,12 +4,12 @@ import 'package:get/get.dart';
 
 import '../utils/route.dart';
 
-class SplashController extends GetxController{
-@override
+class SplashController extends GetxController {
+  @override
   void onInit() {
     super.onInit();
     Timer(const Duration(seconds: 3), () {
-      Get.toNamed(RouteGenerator.loginscreen);
+      Get.offNamed(RouteGenerator.loginscreen);
     });
   }
 }

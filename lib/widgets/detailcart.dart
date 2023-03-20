@@ -73,34 +73,36 @@ ListView GroceryCard(List data) {
                             )
                           ]),
                     ),
-                    Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          SizedBox(height: 12),
-                          TextView(
-                            data[index]['name'],
-                            fontSize: 16,
-                            fontWeight: FontWeight.w600,
-                          ),
-                          SizedBox(
-                            height: 6,
-                          ),
-                          Expanded(
-                            child: TextView(
-                              data[index]['desc'],
-                              textColor: AppColors.hint,
-                              maxLines: 2,
-                              fontSize: 12,
-                              fontWeight: FontWeight.w500,
+                    Expanded(
+                      child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            SizedBox(height: 12),
+                            TextView(
+                              data[index]['name'],
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
                             ),
-                          ),
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(bottom: 24.0, top: 12),
-                            child: TextView(data[index]['perKg']),
-                          ),
-                        ]),
+                            SizedBox(
+                              height: 6,
+                            ),
+                            Expanded(
+                              child: TextView(
+                                data[index]['desc'],
+                                textColor: AppColors.hint,
+                                maxLines: 3,
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Padding(
+                              padding:
+                                  const EdgeInsets.only(bottom: 24.0, top: 12),
+                              child: TextView(data[index]['perKg']),
+                            ),
+                          ]),
+                    ),
                     Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.end,

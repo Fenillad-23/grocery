@@ -36,7 +36,7 @@ class TextView extends StatelessWidget {
       data ?? '',
       textAlign: textAlign,
       overflow: textOverflow ?? TextOverflow.visible,
-      softWrap: false,
+      softWrap: true,
       maxLines: maxLines,
       style: TextStyle(
         color: textColor,

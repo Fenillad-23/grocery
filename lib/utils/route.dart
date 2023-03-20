@@ -3,6 +3,10 @@ import 'package:grocery/screens/groceryinfoscreen.dart';
 import 'package:grocery/screens/homescreen.dart';
 import 'package:grocery/screens/searchgrocery.dart';
 import 'package:grocery/screens/sign_in.dart';
+import '../screens/cartscreen.dart';
+import '../screens/cartscreen.dart';
+import '../screens/checkout.dart';
+import '../screens/coupens.dart';
 import '../screens/forgot_password/forgotpassword.dart';
 import '../screens/forgot_password/otp_verificationscreen.dart';
 import '../screens/forgot_password/resetpassword.dart';
@@ -19,6 +23,9 @@ abstract class RouteGenerator {
   static const String resetpasswordscreen = '/resetpasswordscreen';
   static const String search = '/search';
   static const String groceryInfo = '/GroceryInfo';
+  static const String cartScreen = '/cartScreen';
+  static const String coupen = '/coupen';
+  static const String checkOut = '/checkOut';
 
   static List<GetPage> pages = [
     GetPage(
@@ -42,10 +49,6 @@ abstract class RouteGenerator {
       page: () => const OtpVerification(),
     ),
     GetPage(
-      name: RouteGenerator.otpscreen,
-      page: () => const OtpVerification(),
-    ),
-    GetPage(
       name: RouteGenerator.resetpasswordscreen,
       page: () => const Resetpassword(),
     ),
@@ -60,6 +63,15 @@ abstract class RouteGenerator {
     GetPage(
       name: RouteGenerator.groceryInfo,
       page: () => const GroceryInfo(),
-    )
+    ),
+    GetPage(
+      name: RouteGenerator.cartScreen,
+      page: () => const CartScreen(),
+    ),
+    GetPage(
+      name: RouteGenerator.coupen,
+      page: () => const Coupen(),
+    ),
+    GetPage(name: RouteGenerator.checkOut, page: () => const CheckOut())
   ];
 }

@@ -13,8 +13,10 @@ class StringUtils {
   static const newpassword = 'New password';
   static const continuewith = 'or continue with';
   static const dailyprd = 'Daily Products';
-  static const  searchlable= 'Search for Vegetables';
+  static const searchlable = 'Search for Vegetables';
   static const backery = 'backery';
+  static const proceed = 'proceed';
+  static const promocode = 'Use Promo Code';
   static const welcomemsg = 'Hey Ady\n\n What would you like to Buy today?';
   static const donthaveaccount = 'Don\'t have an account ?';
   static const alreadyhaveaccount = 'Do you already have an Account? ';
@@ -27,16 +29,19 @@ class StringUtils {
   static const otpNotReceived = 'Didn’t Receive OTP?';
   static const resendOtp = 'Resend OTP';
   static const category = 'Category';
+  static const address = 'Shipping Address';
 
   static const offer = 'Enjoy the Special Offer\n up yo 60\% Off';
   static const offer1 = ' 60\% Off';
   static const timing = 'from 12 to 16 August,2022';
   static const bestselling = 'Best Sellings';
   static const home = 'Home';
+  static const office = 'office';
   static const search = 'Search';
   static const searchVeg = 'Search your Groceries';
   static const buy = 'Buy';
   static const profile = 'Profilę';
+  static const paymentMethod = 'Payment Mode';
   static const otp_hint = 'Enter an OTP recieved by Email';
   static const Terms_condtions = 'Agree to the Terms & Conditions';
   static const fruit = 'Fruits';

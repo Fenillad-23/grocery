@@ -36,7 +36,8 @@ class HomePageController extends GetxController {
       'img': Image_utils.oranges,
       'price': 'M.R.P 400',
       'name': 'Fresh Oranges',
-      'desc': 'Lorem ipsum dolor sit amet,\nconsectetu adipiscing elit.',
+      'desc':
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida leo, diam aliquet ornare volutpat enim..',
       'perKg': '250 (for 6 Piece)',
       'isLiked': 'true',
       'offer': StringUtils.offer1
@@ -45,9 +46,30 @@ class HomePageController extends GetxController {
       'img': Image_utils.carrot,
       'price': 'M.R.P 400',
       'name': 'Carrots',
-      'desc': 'Lorem ipsum dolor sit amet,\nconsectetu adipiscing elit',
+      'desc':
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida leo, diam aliquet ornare volutpat enim.',
       'perKg': '150 (per Kg)',
       'isLiked': 'true',
+      'offer': StringUtils.offer1
+    },
+    {
+      'img': Image_utils.oranges,
+      'price': 'M.R.P 400',
+      'name': 'Fresh Oranges',
+      'desc':
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida leo, diam aliquet ornare volutpat enim.',
+      'perKg': '250 (for 6 Piece)',
+      'isLiked': 'true',
+      'offer': StringUtils.offer1
+    },
+    {
+      'img': Image_utils.carrot,
+      'price': 'M.R.P 400',
+      'name': 'Carrots',
+      'desc':
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida leo, diam aliquet ornare volutpat enim.',
+      'perKg': '150 (per Kg)',
+      'isLiked': 'false',
       'offer': StringUtils.offer1
     },
     {
@@ -72,25 +94,8 @@ class HomePageController extends GetxController {
       'img': Image_utils.oranges,
       'price': 'M.R.P 400',
       'name': 'Fresh Oranges',
-      'desc': 'Lorem ipsum dolor sit amet,\nconsectetu adipiscing elit.',
-      'perKg': '250 (for 6 Piece)',
-      'isLiked': 'true',
-      'offer': StringUtils.offer1
-    },
-    {
-      'img': Image_utils.carrot,
-      'price': 'M.R.P 400',
-      'name': 'Carrots',
-      'desc': 'Lorem ipsum dolor sit amet,\nconsectetu adipiscing elit',
-      'perKg': '150 (per Kg)',
-      'isLiked': 'false',
-      'offer': StringUtils.offer1
-    },
-    {
-      'img': Image_utils.oranges,
-      'price': 'M.R.P 400',
-      'name': 'Fresh Oranges',
-      'desc': 'Lorem ipsum dolor sit amet,\nconsectetu adipiscing elit.',
+      'desc':
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida leo, diam aliquet ornare volutpat enim.',
       'perKg': '250 (for 6 Piece)',
       'isLiked': 'true',
       'offer': StringUtils.offer1

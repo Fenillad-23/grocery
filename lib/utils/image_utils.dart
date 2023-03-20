@@ -11,6 +11,7 @@ class Image_utils {
   static const animatedContainer = base + 'bottom.png';
   static const back = base + 'back.png';
   static const home = base + 'Home.png';
+  static const paymentMethod = base + 'paymentMethod.png';
   static const search = base + 'Search.png';
   static const offer = base + 'offer1.png';
   static const timer = base + 'timer.png';
@@ -18,12 +19,19 @@ class Image_utils {
   static const notification = base + 'notification.png';
   static const profile = base + 'Profile.png';
   static const heart = base + 'Heart.png';
+  static const address = base + 'address.png';
   static const oranges = base + 'oranges.png';
   static const selectedItem = base + 'orangeHeart.png';
   static const filter = base + 'Filter.png';
+  static const cod = base + 'COD.png';
+  static const discover = base + 'discover.png';
+  static const wallet = base + 'wallet.png';
   static const carrot = base + 'carrots.png';
   static const fruit = base + 'fruit.png';
+  static const coupen = base + 'coupen.png';
   static const veg = base + 'veg.png';
   static const bread = base + 'bread.png';
   static const dairy = base + 'bread.png';
+  static const minus = base + 'substract.png';
+  static const plus = base + 'plus.png';
 }
